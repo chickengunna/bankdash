@@ -20,12 +20,13 @@ body {
 
 
 .sidebar {
-    width: 280px;
+    width: 250px;
     background: #FFFFFF;
     position: fixed;
     top: 0px;
     left: 0px;
     bottom: 0px;
+    z-index: 1000;
     border-right: 1px solid #E6EFF5;
 }
 
@@ -50,7 +51,7 @@ body {
 
 .sidebar-menu {
     padding: 0px;
-    margin-top: 15px;
+    margin-top: 27px;
 }
 
 .menu-item {
@@ -96,7 +97,7 @@ body {
 
 .main-content {
     flex: 1;
-    margin-left: 280px;
+    margin-left: 250px;
     min-height: 100vh;
     background: #F5F7FA;
 }
@@ -104,7 +105,7 @@ body {
 .header {
     background: #FFFFFF;
     height: 100px;
-    padding: 0px 60px 0px;
+    padding: 0px 40px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,6 +115,7 @@ body {
 .page-title {
     font-weight: 600;
     font-size: 28px;
+    
     color: #343C6A;
 }
 
@@ -269,8 +271,7 @@ body {
 }
 
 .card-balance-white {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
 }
 
 .card-chip {
@@ -346,8 +347,7 @@ body {
 }
 
 .card-balance-dark {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
     color: #343C6A;
 }
 
